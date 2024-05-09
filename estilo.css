@@ -143,3 +143,44 @@ nav a {
 .footer-section a:hover {
     text-decoration: underline;
 }
+
+/*VERSION PARA CELULARES*/
+@media only screen and (max-width: 600px) {
+    /* Encabezado y navegación */
+    header {
+        padding: 8px 0;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+        padding-left: 15px;
+    }
+
+    /* Sección de inicio */
+    .inicio {
+        width: 90%;
+        padding: 50px 10px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    /* Sección de información */
+    .imagenes img {
+        width: 120px;
+        margin: 5px;
+    }
+
+    .informacion {
+        padding: 15px;
+    }
+
+    /* Pie de página */
+    .footer-section {
+        width: 90%;
+        margin-left: 10px;
+    }
+}
+
+  
