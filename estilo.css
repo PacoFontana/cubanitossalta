@@ -1,0 +1,145 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('imagenes/fondopag4.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+/* Estilo para el encabezado de la página */
+header {
+    background-color: #B76E29;
+    color: white;
+    padding: 12px 0;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Estilo para los elementos del menú de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 25px;
+}
+
+/* Estilo para los enlaces del menú de navegación */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para la sección de inicio */
+.inicio {
+    width: 50%;
+    padding: 100px;
+}
+
+.iniciopag {
+    background-image: url('imagenes/fondopag3.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+.titulo {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+
+/* Estilo para el subtítulo en la sección de inicio */
+.inicio h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilo para la sección de información */
+.informacion {
+    text-align: center;
+    padding: 20px;
+    background-color: #EDDFCB; /* Color de fondo */
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre las secciones */
+}
+
+/* Estilo para el texto principal en la sección de información */
+.info-cubanitos {
+    font-size: 20px;
+}
+
+/* Estilo para el contenedor de imágenes en la sección de información */
+.imagenes {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Estilo para las imágenes en la sección de información */
+.imagenes img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Estilo para la sección de ubicación */
+.ubicacion {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    background-color: #EDDFCB; /* Color de fondo */
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre las secciones */
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+ /*FOOTER DE PAGINA*/
+ footer {
+    background-color: #B76E29;
+    color: white;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 30%; /* Ajusta el ancho de cada sección */
+    margin-left: 100px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
